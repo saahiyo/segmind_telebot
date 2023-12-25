@@ -23,7 +23,7 @@ This Telegram bot, powered by [Segmind](https://segmind.com/), utilizes AI to ge
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.11.4
 - Install dependencies using `pip install -r requirements.txt`
 
 ### Installation
