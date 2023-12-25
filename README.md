@@ -54,7 +54,10 @@ This Telegram bot, powered by [Segmind](https://segmind.com/), utilizes AI to ge
 
 ## Examples
 
-SCREENSHOT DEMO...
 ![DEMO](https://github.com/saahiyo/segmind_telebot/assets/81853097/300a800a-b944-4c97-a080-3b6b773d3532)
+
+![DEMO2](https://github.com/saahiyo/segmind_telebot/assets/81853097/22628b24-0bd9-45a2-9696-e309e713883f)
+
+![DEMO3](https://github.com/saahiyo/segmind_telebot/assets/81853097/2df672da-ff44-4b94-96a0-03b670f80354)
 
 .
