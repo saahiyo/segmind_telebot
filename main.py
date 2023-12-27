@@ -16,7 +16,7 @@ monitoring_bot = telebot.TeleBot(monitoring_bot_token)
 def log(message):
     log_text = f"[{message.date}] {message.from_user.username}: {message.text}"
     print(log_text)
-    monitoring_bot.send_message(2030111460, log_text)
+    monitoring_bot.send_message(chat_id , log_text)
 
 @main_bot.message_handler(commands=['start'])
 def start(message):
@@ -98,7 +98,7 @@ def send_logs(message):
     log(message)
     # Fetch logs or any relevant information you want to send
     logs = "Some logs or monitoring data here..."
-    monitoring_bot.send_message(2030111460, logs)
+    monitoring_bot.send_message(chat_id, logs)
 
 # Polling to keep both bots running
 main_bot.polling()
