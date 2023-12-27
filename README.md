@@ -25,6 +25,7 @@ This Telegram bot, powered by [Segmind](https://segmind.com/), utilizes AI to ge
 
 - Python 3.11.4
 - Install dependencies using `pip install -r requirements.txt`
+- segmind api_key 
 
 ### Installation
 
@@ -40,14 +41,14 @@ This Telegram bot, powered by [Segmind](https://segmind.com/), utilizes AI to ge
    ```
 
 ## Usage
-
-1. Start the bot by running the main script:
+1. Edit config.py and add token or api_key 
+2. Start the bot by running the main script:
    ```bash
    python YourBotScript.py
    ```
 
-2. Use the `/start` command to initiate the bot and receive introductory information.
-3. Use the `/gen` command followed by your prompt to generate images. For example:
+3. Use the `/start` command to initiate the bot and receive introductory information.
+4. Use the `/gen` command followed by your prompt to generate images. For example:
    ```bash
    /gen YourPromptHere
    ```
